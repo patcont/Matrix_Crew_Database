@@ -1,0 +1,27 @@
+@import url("http://fonts.cdnfonts.com/css/cyberpunk-is-not-dead");
+
+body {
+  background: url(./images/Digital_rain_animation_small_letters_shine.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Cyberpunk Is Not Dead", sans-serif;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.navbar {
+  border: green solid;
+  border-radius: 5px;
+}
+
+.botones{
+  display:flex;
+  flex-direction:row
+}
+
+.neo{
+  margin-left: 15%;
+  margin-top: 10px;
+}
