@@ -57,6 +57,3 @@ def naveApi(request,id=0):
         nave.delete()
         return JsonResponse("Eliminacion exitosa", safe=False)
     
-
-    
-    

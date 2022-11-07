@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+
 class Nave(models.Model):
     IdNave = models.AutoField(primary_key=True)
     NombreNave = models.CharField(max_length=100)
